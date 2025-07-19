@@ -58,7 +58,7 @@ main > section{
 
 .nav-item{
     list-style: none;
-    margin-right: 30px;
+    padding-right: 30px;
 }
 .nav-link{
     text-decoration: none;
@@ -66,7 +66,7 @@ main > section{
     font-weight: 500;
 }
 .navbar,.banner{
-    width: 1200px;
+   max-width: 1200px;
     margin: 0 auto;
 }
 /* banner styles */
@@ -83,7 +83,7 @@ main > section{
 .banner-description{
     font-weight: 400px;
 }
-.banner-image{
+.banner-image img {
     width: 100%;
 }
 
@@ -205,7 +205,7 @@ main > section{
         margin-top: 20px;
         margin-left: 20px;
     }
-    .facts-container,{
+    .facts-container{
         justify-items: center;
         gap: 24px;
     }
